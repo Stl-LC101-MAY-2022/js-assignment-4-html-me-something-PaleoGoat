@@ -1,1 +1,159 @@
 /* Write your CSS here! */
+/* ELEMENTS */
+
+body {
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 12pt;
+    font-weight: 400;
+    color: #333;
+    width: 100vw;
+    height: 100vw;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    height: auto;
+    padding: 5px;
+    margin: 5px 0px 0px 0px;
+}
+
+main {
+    width: 97vw;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer {
+    color: white;
+    background-color: #333;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    margin: 0px;
+    border-top-style: groove;
+    border-top-color: black;
+    border-top-width: 1px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin: 0px;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 30px 0px 0px 10px;
+}
+
+h3 {
+    font-size: ;
+    color: #333;
+}
+
+h4 {
+    font-size: 25px;
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    margin: 0px 0px 0px 0px;
+}
+
+h5 {
+    font-size: 12px;
+    color: #333;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+    margin: 0px 0px 0px 0px;
+}
+
+figcaption {
+    text-align: justify;
+    margin: 0px 0px 0px;
+    font-family: 'Inconsolata', monospace;
+    padding: 18px 12% 0% 12%;
+}
+
+img {
+    margin: 3px 0px 10px 0px;
+}
+
+ul {
+    margin: 20px 100px 0px;
+    font-family: 'Inconsolata', monospace;
+    font-size: larger;
+    font-weight: 600;
+}
+/* IDs */
+
+#introphoto {
+    border-radius: 4% !important;
+    margin: 0px 0px 0px 0px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    max-height: auto;
+}
+
+#gallery-listing {
+    padding: 0% 12% 0px 7%;
+}
+
+#about-artist {
+    text-transform: uppercase;
+    padding: 0% 12% 0px 3%;
+}
+
+#bio {
+    font-family: 'Nanum Myeongjo', serif !important;
+    text-align: justify;
+    padding: 0px 12% 10px 12%;
+}
+
+#copyright {
+    text-align: center !important;
+}
+
+/* CLASSES */
+.hr-about {
+    border-top: 1px solid rgb(113, 113, 113);
+}
+
+.art-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
+    max-height: auto;
+}
+
+.tall-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: auto;
+    max-height: 70vh;
+}
+
+.img-frame-top {
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.img-frame-bottom {
+    width: 150px;
+    margin-bottom: 200px;
+    margin-top: 30px;
+}
