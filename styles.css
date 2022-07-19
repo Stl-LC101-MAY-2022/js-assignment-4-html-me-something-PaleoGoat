@@ -30,10 +30,6 @@ main {
     padding: 10px;
     box-sizing: border-box;
 }
-body {
-    margin: 8px;
-    display: block;
-}
 
 footer {
     color: white;
@@ -110,20 +106,18 @@ ul {
 }
 
 #gallery-listing {
-    padding: 0% 12% 0px 7%;
+    padding: 0% 12% 0px 50px;
 }
 
-#mainHeading {
+#about-artist {
     text-transform: uppercase;
     padding: 0% 12% 0px 3%;
-    color: red;
 }
 
-#testP {
+#bio {
     font-family: 'Nanum Myeongjo', serif !important;
     text-align: justify;
     padding: 0px 12% 10px 12%;
-    color: green;
 }
 
 #copyright {
@@ -161,8 +155,4 @@ ul {
     width: 150px;
     margin-bottom: 200px;
     margin-top: 30px;
-}
-
-.funParagraph {
-    color: green;
 }
